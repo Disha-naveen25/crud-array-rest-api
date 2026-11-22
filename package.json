@@ -1,0 +1,25 @@
+{
+  "name": "crud-array-rest-api",
+  "version": "1.0.0",
+  "description": "Develop a frontend for CRUD operations on an array of items using HTML, CSS, Express.js and REST API.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Disha-naveen25/crud-array-rest-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Disha-naveen25/crud-array-rest-api/issues"
+  },
+  "homepage": "https://github.com/Disha-naveen25/crud-array-rest-api#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
