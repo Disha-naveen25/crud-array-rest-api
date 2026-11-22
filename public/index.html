@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CRUD Item Management</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Item Management</h1>
+
+        <!-- Form -->
+        <div class="form-container">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter item name"
+            >
+
+            <input
+                type="number"
+                id="price"
+                placeholder="Enter price"
+            >
+
+            <button id="submitBtn" onclick="addItem()">
+                Submit
+            </button>
+
+        </div>
+
+        <!-- Table -->
+        <table>
+
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody id="itemTableBody">
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
